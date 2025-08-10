@@ -1,3 +1,11 @@
+"""
+Enhanced AI Assistant with RAG capabilities
+- Multi-format document processing (PDF, DOCX, TXT, CSV, XLSX)
+- Semantic search with keyword fallback
+- Azure OpenAI integration with comprehensive error handling
+- Interactive Streamlit UI with metrics and debugging tools
+"""
+
 import streamlit as st
 import os
 import asyncio
