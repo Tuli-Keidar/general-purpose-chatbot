@@ -1,4 +1,5 @@
 # Enhanced AI Assistant with RAG
+<!-- Complete documentation and setup guide for the AI chatbot with document upload and retrieval capabilities -->
 
 A powerful AI chatbot built with Streamlit and Azure OpenAI that supports document upload and retrieval-augmented generation (RAG). Upload documents and chat with an AI that can reference your content to provide contextually relevant responses.
 
