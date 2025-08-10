@@ -7,5 +7,5 @@ __pycache__/
 .env
 .idea
 .vscode
-streamlit/
+.streamlit/secrets.toml
 .local/
