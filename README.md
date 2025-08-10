@@ -49,10 +49,24 @@ AZURE_OPENAI_EMBEDDING_DEPLOYMENT_NAME=your-embedding-model-deployment
 ## File Structure
 
 ```
-├── enhanced_ai_app.py      # Main Streamlit application
-├── .env.example           # Template for environment variables
-├── .gitignore            # Git ignore rules (protects .env)
-└── README.md             # This file
+├── enhanced_ai_app.py      # Main Streamlit application with RAG capabilities
+│                          # - Document processing (PDF, DOCX, TXT, CSV, XLSX)
+│                          # - Dual search (semantic + keyword fallback)
+│                          # - Azure OpenAI integration with error handling
+│                          # - Interactive UI with metrics and debugging
+│
+├── .env.example           # Configuration template with placeholder values
+│                          # - Azure OpenAI endpoint and API key
+│                          # - Chat and embedding deployment names
+│                          # - Copy to .env and fill with real credentials
+│
+├── .gitignore            # Git ignore rules for security and cleanliness
+│                          # - Protects .env file from being committed
+│                          # - Excludes Python cache, virtual env, etc.
+│
+└── README.md             # Complete documentation and setup guide
+                          # - Features, installation, configuration
+                          # - Usage instructions and technical details
 ```
 
 ## Usage
