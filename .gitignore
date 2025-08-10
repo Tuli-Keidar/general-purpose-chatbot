@@ -1,3 +1,4 @@
+# Git ignore rules to protect sensitive files and exclude build artifacts
 venv/
 __pycache__/
 *.pyc
